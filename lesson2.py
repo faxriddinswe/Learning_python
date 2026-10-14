@@ -46,6 +46,3 @@ print(nums)
 words = ["anor", "uzum", "ananas", "shaftoli"]
 N = 4
 results = []
-
-for i in range(len(words)):
-        
