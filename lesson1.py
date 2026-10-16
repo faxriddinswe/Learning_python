@@ -31,12 +31,14 @@
 # print(teskari_royxat)  
 
 
-class_a = ["Ali", "Vali", "Malika", "Aziza"]
-class_b = ["Malika", "Aziza", "Hasan", "Husan"]
-results = []
+# class_a = ["Ali", "Vali", "Malika", "Aziza"]
+# class_b = ["Malika", "Aziza", "Hasan", "Husan"]
+# results = []
 
-for student in class_a:
-  if student in class_b:
-    results.append(student)
+# for student in class_a:
+#   if student in class_b:
+#     results.append(student)
 
-print(student)  
+# print(student)  
+
+
