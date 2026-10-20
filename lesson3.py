@@ -33,10 +33,6 @@
 #             print(f"{i}, {marta} marta ishtirok etgan.")
 
 
-ticket_ids([101, 203, 101, 305, 203, 101, 410])
-
-
-
 
 
 

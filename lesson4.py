@@ -14,3 +14,7 @@ elif amount > balance:
 
 else:
     print("Pul yechishga ruxsat")
+
+
+# Task 2
+
