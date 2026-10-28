@@ -27,27 +27,24 @@
 
 # Task 2
 
-age = 17
-has_adult_companion = True
-room_available = True
-nights = 4
-price_per_night = 200000
+# age = 17
+# has_adult_companion = True
+# room_available = True
+# nights = 4
+# price_per_night = 200000
 
 
-if nights <= 1:
-    print("Tunash kunlari kamida 1 kun bo'lishi kerak ")
+# if nights <= 1:
+#     print("Tunash kunlari kamida 1 kun bo'lishi kerak ")
 
-elif age < 18:
-    print("18 yoshga yetmagan mijoz faqat katta sherigi bilan tunashi kerak ")
+# elif age < 18:
+#     print("18 yoshga yetmagan mijoz faqat katta sherigi bilan tunashi kerak ")
 
-elif room_available == False:
-    print(" Bron rad etildi")
+# elif room_available == False:
+#     print(" Bron rad etildi")
 
-elif price_per_night > 3:
-    print("15 foiz discount beriladi ")
-
-
-
+# elif price_per_night > 3:
+#     print("15 foiz discount beriladi")
 
 
 

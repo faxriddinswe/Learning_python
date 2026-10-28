@@ -1,13 +1,6 @@
 # # Task 1
 
 students = {
-    "Ali":   (90, 75),
-    "Vali":  (45, 80),
-    "Malika":(85, 30),
-    "Aziza": (70, 60)
-}
-
-students = {
     "Ali": (90, 75),
     "Vali": (45, 80),
     "Malika": (85, 30),
@@ -18,11 +11,11 @@ for name, (attendance, score) in students.items():
     if not (0 <= attendance <= 100 and 0 <= score <= 100):
         print(f"{name}: Xato ma'lumot")
     elif attendance < 60:
-        print(f"{name}: Imtihonga qo‘yilmaydi")
+        print(f"{name}: Imtihonga qo'yilmaydi")
     elif score < 40:
         print(f"{name}: Qayta topshiradi")
     else:
-        print(f"{name}: O‘tdi")
+        print(f"{name}: O'tdi")
 
 
 
@@ -33,15 +26,15 @@ account_active = True
 familiar_location = False
 
 if amount < 0:
-    print("To‘lov rad etildi: noto‘g‘ri summa")
+    print("Tolov rad etildi: notogri summa")
 elif not account_active:
-    print("To‘lov rad etildi: hisob faol emas")
+    print("Tolov rad etildi: hisob faol emas")
 elif amount > 10000000:
-    print("To‘lov qo‘lda tekshirishga yuborildi")
+    print("Tolov qolda tekshirishga yuborildi")
 elif amount > 2000000 and not familiar_location:
-    print("To‘lov qo‘lda tekshirishga yuborildi")
+    print("Tolov qolda tekshirishga yuborildi")
 else:
-    print("To‘lov tasdiqlandi")
+    print("Tolov tasdiqlandi")
 
 
 
@@ -67,9 +60,9 @@ requested_time = "10:00"
 is_internal = True
 
 if not is_internal and participants < 5:
-    print("Tashqi yig‘ilish uchun ishtirokchilar soni kamida 5 ta bo‘lishi kerak")
+    print("Tashqi yigilish uchun ishtirokchilar soni kamida 5 ta bo‘lishi kerak")
 elif participants < 1:
-    print("Ishtirokchilar soni kamida 1 bo‘lishi kerak")
+    print("Ishtirokchilar soni kamida 1 bolishi kerak")
 else:
     best_room = None
     min_capacity = float('inf')
@@ -95,18 +88,17 @@ is_electric = True
 special_spaces_available = True
 
 if available_spaces < 0:
-    print("Tizim ma’lumot xatosi: bo‘sh joylar soni manfiy bo‘lishi mumkin emas")
+    print("Tizim malumot xatosi: bosh joylar soni manfiy bolishi mumkin emas")
 elif available_spaces == 0:
-    print("Kirish taqiqlandi: bo‘sh joylar mavjud emas")
+    print("Kirish taqiqlandi: bosh joylar mavjud emas")
 elif not payment_completed:
-    print("Kirish taqiqlandi: to‘lov qilinmagan")
+    print("Kirish taqiqlandi: tolov qilinmagan")
 else:
     print("Kirishga ruxsat berildi")
     if is_electric and special_spaces_available:
-        print("Elektr avtomobili uchun maxsus joyga yo‘naltirildi")
+        print("Elektr avtomobili uchun maxsus joyga yonaltirildi")
     else:
-        print("Oddiy joyga yo‘naltirildi")
-
+        print("Oddiy joyga yonaltirildi")
 
 # Task 5
 

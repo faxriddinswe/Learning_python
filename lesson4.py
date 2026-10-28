@@ -48,24 +48,25 @@
 
 # Task 4
 
-score = 88
-age = 18
-interview_passed = True
+# score = 88
+# age = 18
+# interview_passed = True
 
-if age < 16:
-    print("Xato : Talabaning yoshi 18 dan kichik")
+# if age < 16:
+#     print("Xato : Talabaning yoshi 18 dan kichik")
 
-elif score < 0 or score > 100 :
-    print("Xato : Talaba bali 0 va 100 orasida emas ")
+# elif score < 0 or score > 100 :
+#     print("Xato : Talaba bali 0 va 100 orasida emas ")
 
-elif score >= 85 and interview_passed:
-    print("Stipendiya beriladi !")
+# elif score >= 85 and interview_passed:
+#     print("Stipendiya beriladi !")
 
-elif score >= 70 and interview_passed:
-    print("O'qishga qabul qilinadi")
+# elif score >= 70 and interview_passed:
+#     print("O'qishga qabul qilinadi")
 
-else:
-    print("rad etildi")
+# else:
+#     print("rad etildi")
 
 
-print(f"Natija : {score}")
+# print(f"Natija : {score}")
+
